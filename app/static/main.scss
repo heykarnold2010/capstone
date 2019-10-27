@@ -52,8 +52,8 @@ html, body {
 }
 
 .slide1 {
-  background: no-repeat url('../../images/Borabora.jpg');
-  background-size: 100vw;
+  background: url('../../images/Borabora.jpg');
+      background-size: cover;
 
   h1:before{
     border-left: 1px solid #fff;
@@ -62,8 +62,8 @@ html, body {
 }
 
 .slide2 {
-  background: no-repeat url('../../images/Paris.jpg');
-  background-size: 100vw;
+  background: url('../../images/Paris.jpg');
+      background-size: cover;
 
   h1:before{
     border-right: 1px solid #fff;
@@ -72,6 +72,7 @@ html, body {
   h1:after {
     border-left: 1px solid #fff;
     right: 0;
+    left: 0;
     content: ' ';
     position: absolute;
     top: 1em;
@@ -83,8 +84,8 @@ html, body {
 }
 
 .slide3 {
-  background: no-repeat url('../../images/Zion.jpg');
-  background-size: 100vw;
+  background: url('../../images/Zion.jpg');
+  background-size: cover;
 
   h1:before{
     border-right: 1px solid #fff;
@@ -104,8 +105,12 @@ html, body {
 }
 
 .slide4 {
-  background: no-repeat url('../../images/Iceland.jpg');
-  background-size: 100vw;
+  background: url('../../images/Iceland.jpg');
+  background-size: cover;
+
+  h1{
+    font-size: 14vw;
+  }
 
   h1:before{
     border-right: 1px solid #fff;
@@ -125,8 +130,8 @@ html, body {
 }
 
 .slide5 {
-  background: no-repeat url('../../images/giraffemanor.jpg');
-  background-size: 100vw;
+  background: url('../../images/giraffemanor.jpg');
+      background-size: cover;
 
   h1:before{
     border-right: 1px solid #fff;
@@ -146,8 +151,8 @@ html, body {
 }
 
 .slide6 {
-  background: no-repeat url('../../images/banff.jpg');
-  background-size: 100vw;
+  background: url('../../images/banff.jpg');
+    background-size: cover;
 
   h1:before {
     border-right: 1px solid #fff;
